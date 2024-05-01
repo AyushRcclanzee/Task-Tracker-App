@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7f6; /* Background color */
+  color: #333; /* Text color */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.completed-tasks-container {
+  background-color: #fff; /* Background color */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.completed-tasks-container h5 {
+  color: #333; /* Text color */
+}
+
+.MuiPaper-root {
+  background-color: #fff; /* Background color */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.MuiPaper-root h5 {
+  color: #333; /* Text color */
+}
+
+.MuiTab-root {
+  color: #fff; /* Tab text color */
+}
+
+.Mui-selected {
+  background-color: #2e8b57 !important; /* Selected tab background color */
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #2e8b57 !important; /* Appbar background color */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #2e8b57 !important; /* Button background color */
+}
